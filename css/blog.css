@@ -1,0 +1,20 @@
+/* navigation */
+#navigation-section > nav.nav-scroll {
+	position: relative;
+	height: 2rem;
+  	padding: 1rem 0;
+	box-sizing: border-box;
+	overflow-y: hidden;
+	line-height: 1em;
+}
+
+#navigation-section > nav.nav-scroll > ul {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	padding-bottom: 1rem;
+}
+
+#navigation-section > nav.nav-scroll > ul > li > a {
+	font-weight: 500;
+}
+/* /navigation */
