@@ -1,0 +1,60 @@
+/* -----offcanvas----- */
+.uk-offcanvas-bar {
+	width: 240px;
+	background: #212121;
+	padding: 1rem 30px;
+}
+
+.nav-wrap {
+	padding-bottom: 50px;
+}
+
+.reports-box {
+	border-top: 1px solid rgba(255,255,255,0.06);
+	margin-bottom: -1px;
+}
+
+ul.uk-nav-default > li > a {
+	border-left: 2px solid transparent;
+	transition: all 0.15s ease-out;
+}
+
+ul.uk-nav-default > li > a:hover, 
+ul.uk-nav-default > li.uk-open > a {
+	border-left: 2px solid #39f;
+	padding-left: 10px;
+	color: white;
+	background-color: rgba(0,0,0,0.1);
+}
+/* -----/offcanvas----- */
+
+
+
+.uk-tooltip {
+	background-color: white;
+	color: #242C33;
+	box-shadow: 0 2px 12px rgba(50,50,50,0.1);
+}
+
+
+* + .uk-progress {
+    margin-top: 0.25rem;
+}
+.uk-progress.warning::-webkit-progress-value {
+  background-color: #faa05a;
+}
+.uk-progress.warning::-moz-progress-bar {
+  background-color: #faa05a;
+}
+.uk-progress.warning::-ms-fill {
+  background-color: #faa05a;
+}
+.uk-progress.success::-webkit-progress-value {
+  background-color: #32d296;
+}
+.uk-progress.success::-moz-progress-bar {
+  background-color: #32d296;
+}
+.uk-progress.success::-ms-fill {
+  background-color: #32d296;
+}
