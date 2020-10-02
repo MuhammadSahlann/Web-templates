@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<title>Dashboard</title>
+
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- header -->
+	<header class="uk-container" id="header-page">
+		<!-- nav -->
+      <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+      	<!-- left side of navbar -->
+         <div class="uk-navbar-left nav-overlay">
+         	<div class="uk-navbar-item">
+               <a class="uk-logo" href=""><img src="img/kickOff-logo.svg" alt="Logo"></a>
+           		<ul class="uk-navbar-nav uk-margin-left uk-visible@s">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+               </ul>
+         	</div>
+         </div>
+      	<!-- /left side of navbar -->
+      	<!-- right side of navbar -->
+         <div class="uk-navbar-right nav-overlay">
+           	<a class="uk-navbar-toggle uk-margin-small-right" data-uk-search-icon data-uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+           	<!-- <a class="uk-navbar-toggle uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a> -->
+           	<a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+         </div>
+      	<!-- /right side of navbar -->
+      	<!-- search box -->
+         <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+				<div class="uk-navbar-item uk-width-expand">
+					<form class="uk-search uk-search-navbar uk-width-1-1">
+						<input class="uk-search-input" type="search" placeholder="Search...">
+					</form>
+				</div>
+				<a class="uk-navbar-toggle" data-uk-close data-uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+			</div>
+      	<!-- /search box -->
+      </nav>
+     <!-- /nav -->
+	</header>
+	<!-- /header-->
+
+	<!-- content -->
+	<section class="uk-container uk-section uk-section-small" id="content-section">
+
+	</section>
+	<!-- /content -->
+	
+	<!-- footer -->
+	<footer class="uk-container uk-section uk-section-small uk-section-muted" id="footer-page">
+		<p class="uk-text-small uk-text-center">Copyright 2020 - Created by Arnn | Built with <a href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span data-uk-icon="uikit"></span></a></p>
+	</footer>
+	<!-- /footer-->
+
+	<!-- offcanvas -->
+	<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: true">
+		<div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+			<div class="nav-wrap">
+				<ul class="uk-nav uk-nav-default uk-nav-parent-icon" data-uk-nav>
+					<li class="uk-nav-header">ACTIONS</li>
+					<li><a href="#"><span data-uk-icon="server" class="uk-margin-small-right"></span>Dashboard</a></li>
+					<li class="uk-parent">
+						<a href="#"><span data-uk-icon="thumbnails" class="uk-margin-small-right"></span>Templates</a>
+						<ul class="uk-nav-sub">
+							<li><a href="#">Article</a></li>
+							<li><a href="#">Album</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="reports-box uk-margin-top">
+					<h5>Daily Reports</h5>
+					<div>
+						<span class="uk-text-small">Traffic <small>(+50)</small></span>
+						<progress class="uk-progress" value="50" max="100"></progress>
+					</div>
+					<div>
+						<span class="uk-text-small">Income <small>(+78)</small></span>
+						<progress class="uk-progress success" value="78" max="100"></progress>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /offcanvas -->
+
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
