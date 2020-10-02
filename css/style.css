@@ -1,0 +1,86 @@
+body {
+	background-color: #eaeaea;
+}
+
+
+/* -----header----- */
+header#header-page {
+	background: #212121;
+	color: #fff;
+}
+
+/* smaller header */
+.uk-navbar-nav > li > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+	min-height: 50px;
+	padding: 0;
+}
+/* /smaller header */
+
+.uk-logo > img {
+	height: 35px;
+}
+
+.uk-navbar-nav > li {
+	padding-right: 20px;
+}
+
+.uk-navbar-nav > li > a {
+	font-weight: 600;
+}
+/* -----/header----- */
+
+
+/* -----featured-section----- */
+/* .post-slide > li > .uk-card {
+	box-shadow: none;
+	border: 1px solid rgba(0,0,0,0.075);
+} */
+/* -----/featured-section----- */
+
+
+.uk-tooltip {
+	background-color: white;
+	color: #242C33;
+	box-shadow: 0 2px 12px rgba(50,50,50,0.1);
+}
+
+
+/* -----misc----- */
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #525965;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #525965;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #525965;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* /scroll bar */
+/* -----/misc----- */
